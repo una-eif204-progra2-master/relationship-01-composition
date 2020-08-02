@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(basic-00-example)
+project(relationship-01-composition)
 
-set(CMAKE_CXX_STANDARD 17)
-add_executable(sample Basic00Example.cpp)
+set(SOURCE_FILES main.cpp Punto2D.cpp Punto2D.h Animacion.cpp Animacion.h)
+
+add_executable(sample ${SOURCE_FILES})
